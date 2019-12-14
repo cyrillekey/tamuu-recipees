@@ -1,0 +1,401 @@
+/*css for the main page of the webpage*/
+*{
+	margin: 0px;
+	padding: 0px;
+}
+h1{
+	float: left;
+	color: white;
+	margin-top: 20px;
+	margin-left: 20px;
+	font-family: "Century gothic";
+	font-weight: lighter;
+}
+.Header{
+
+	height: 2cm;
+	background: black;
+}
+.Header ul{
+	padding: 0.60cm;
+	float: right;
+	background: black;
+}
+ul li{
+	list-style: none;
+	display: inline-block;
+	border-radius: 2px;
+	background: green;
+	padding: 2px;
+}
+ul li a{
+	text-decoration: none;
+	font-size: 	20px;
+	color: #fff;
+	font-family: "Century gothic";
+}
+ul li a:hover{
+	background: lightblue;
+	color: black;
+}
+.content{
+	text-align: center;
+	font-size: 30px;
+	font-family: Arial;
+}
+body{
+	background:white;
+}
+.Index a{
+	background: yellow;
+	color: black;
+}
+#title
+{
+	margin-left: 0;
+	height:2.4cm;
+	width:100%;
+	text-align: center;
+	position: absolute;
+	margin-top:1.5cm;
+	font-family:cursive;
+	font-size: 38px;
+	color: black;
+}
+
+#body
+{
+padding-top:4cm;
+margin-top:0cm;
+height:520px;
+font-size: 54px;
+color:white;
+font-weight:.5; 
+font-family: sans-serif;
+background-image:url(../Images/blur.jpg);
+background-size:1360px 720px;
+background-repeat: no-repeat;
+text-align: center;
+overflow:visible;
+}
+#about
+{
+	margin-top: 0cm;
+	height:620px;
+	background-color:orange;
+	font-size:60px;
+	overflow: hidden;
+	color: white;
+	padding-top:6cm;
+	text-align: center;
+
+}
+#samples
+{
+	height:720px;
+	overflow:hidden;
+}
+#samples .food
+{
+	display:inline-block;
+	margin:.5cm;
+}
+#samples p
+{
+	font-size: 30px;
+	text-align: center;
+	font-family: "century gothic";
+}
+#contact
+{
+	height:360px;
+	background-color: grey;
+}
+#info
+{
+	position: absolute;
+	width:6cm;
+	font-family: cursive;
+	font-size: 19px;
+}
+.labell
+{
+	margin-top: 1cm;
+	width:4cm;
+	height:2cm;
+}
+#rightc
+{
+	position: absolute;
+	height:360px;
+	float: right;
+	right:0;
+	margin-left:16cm;
+	width:10cm;
+}
+#rightc form
+{
+	margin-top:2cm;
+	float: right;
+	width: 8cm;
+}
+#rightc form label
+{
+	display:block;
+	margin:0cm;
+	width:4cm;
+	height:1cm;
+	text-align: center;
+	font-family: cursive;
+	font-size:18px;
+}
+#rightc form input
+{
+	border-radius:8px;
+	width:6cm;
+	height:.8cm;
+	background-color: green;
+	color: white;
+}
+#rightc form button
+{
+	margin-top: .5cm;
+	width:4cm;
+	height:1cm;
+	background-color: red;
+}
+
+#foot
+{
+	width:100%;
+	color: white;
+	height:2cm;
+	font-size:18px;
+	text-align:center;
+	background-color:black;
+	padding-top:.5cm;
+	bottom: 0;
+	position:static;
+}
+#samples .food .image
+{
+	height:14cm;
+	width:10cm;
+	border-radius:7px;
+}
+/*css for the gallery
+*/
+.container
+{
+	max-width: 1200px;
+	margin:auto;
+	margin-top:3cm;
+	background-color: #f2f2f2;
+	overflow:visible;
+}
+.gallery
+{
+	margin-left:5px;
+	border:1px solid #ccc;
+	width: 390px;
+	display: inline-block;
+}
+
+.gallery img
+{
+	width:100%;
+	height:auto;
+}
+.desc
+{
+	padding: 15px;
+	text-align:center;
+}
+/* recipes css*/
+.Recipe
+{
+	height:25cm;
+	overflow:auto;
+}
+.Recipe img
+{
+	margin-top:1cm;
+	margin-left:25%;
+}
+.Recipe .title
+{
+	margin-top: 2cm;
+	text-align: center;
+	font-size:30px;
+	font-family: "centurt gothic";
+	color:black;
+	font-weight:4px;
+	margin:.5cm;
+}
+.Recipe .ctitle
+{
+	font-size: 18px;
+	color: green;
+	text-align: center;
+}
+.Recipe ul
+
+{
+	margin-top:0cm;
+	width: 45%;
+	margin-left:12cm;
+}
+.Recipe ul li
+{
+	display:block;
+	width:35%;
+	background-color:white;
+	color:black;
+	font-size:16px;
+
+}
+.Recipe .in
+{
+	height:initial;
+}
+.Recipe .steps
+{
+	margin-left:2cm;
+	font-size: 24px;
+	overflow:unset;
+	height:6cm;
+	margin-bottom: 1cm;
+
+}
+#content
+{
+	 width: 100%;
+	 overflow:hidden;
+	 background-color: yellow;
+}
+.bRecipe
+{
+	width:10cm;
+	position: absolute;
+}
+.bRecipe .btitle
+{
+	width:100%;
+
+}
+.bRecipe .title
+{
+	text-align: center;
+	font-size:30px;
+	font-family: "centurt gothic";
+	color:black;
+	font-weight:4px;
+	margin:.5cm;
+}
+.bRecipe .btitle,.cRecipe .ctitle,.dRecipe .dtitle,
+{
+	font-size: 18px;
+	color: green;
+	text-align: center;
+}
+.bRecipe ul li,.cRecipe ul li,.dRecipe ul li
+{
+	display:block;
+	width:35%;
+	background-color:yellow;
+	color:black;
+	font-size:16px;
+}
+.bhead
+{
+	height:2cm;
+	text-align:center;
+	padding-top:.5cm;
+	font-size:43px;
+	color:green;
+	background-color: yellow;
+}
+.cRecipe
+{
+	right: 0;
+	position: absolute; 
+	width: 10cm;
+}
+.dRecipe
+{
+	width:10cm;
+	margin-left:12cm;
+}
+
+/* about us*/
+.team-section
+{
+	  overflow: hidden;
+	  text-align:center;
+	  background:#34495e;
+	  padding: 60px;
+
+}
+.team-section h1
+{
+	text-transform:uppercase;
+	margin-bottom: 60px;
+	color: white;
+	font-size: 40px;
+}
+.border
+{
+	display: block;
+	margin: auto;
+	width: 160px;
+	height:3px;
+	background:#3498db;
+	margin-bottom:40px;
+}
+.ps
+{
+	margin-bottom: 40px;
+}
+.ps a
+{
+	display: inline-block;
+	margin:0 30px;
+	width: 160px;
+	height: 160px;
+	overflow: hidden;
+	border-radius: 50%;
+}
+.ps a img
+{
+	width: 100%;
+	filter: grayscale(100%);
+}
+
+.ps a:hover > img
+{
+	filter: none;
+}
+.section
+{
+	width: 600px;
+	margin:auto;
+	font-size:20px;
+	color:white;
+	text-align:justify;
+	height: 0;
+	overflow: hidden;
+}
+.section:target
+{
+	height: auto;
+}
+
+.name
+{
+	display: block;
+	margin-bottom: 30px;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 22px;
+}
+

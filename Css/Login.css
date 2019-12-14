@@ -1,0 +1,109 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	background: #fff;
+}
+h1{
+	float: left;
+	color: white;
+	margin-top: 20px;
+	margin-left: 20px;
+	font-family: "Century gothic";
+	font-weight: lighter;
+}
+.Header{
+
+	height: 2cm;
+	background: black;
+}
+.Header ul{
+	padding: 0.60cm;
+	float: right;
+	background: black;
+}
+ul li{
+	list-style: none;
+	display: inline-block;
+	border-radius: 2px;
+	background: green;
+	padding: 2px;
+}
+ul li a{
+	text-decoration: none;
+	font-size: 20px;
+	color: white;
+	font-family: "Century gothic";
+}
+ul li a:hover{
+	background: lightblue;
+	color: black;
+}
+.Login a{
+	background: yellow;
+	color: black;
+}
+.formyetu{
+	margin: 10px auto;
+	padding: 5px;
+	background: url(../Images/bg.png);
+	background-size:100% 100%;
+	width: 14cm;
+	height: 14cm;
+	border-radius: 5px;
+	font-family: "Century gothic";
+	border:solid;
+}
+.ndani{
+	padding: 10px;
+
+}
+h2{
+	text-align: center;
+	font-family: "Century gothic";
+	font-weight: light;
+	font-size: 30px;
+	margin-bottom: 20px;
+}
+input{
+	font-family: "Century gothic";
+	outline: none;
+	display: block;
+	width: 10cm;
+	height: 30px;
+	border-radius: 3px;
+	padding: 5px;
+}
+label{
+	font-size: 25px;
+}
+h3{
+	text-align: center;	
+}
+h3 a{
+	color: black;
+	text-align: center;
+	font-size: 15px;
+
+}
+.ndaniyake{
+	margin: 0px auto;
+	width: 10.4cm;
+}
+.button{
+	padding: 0px;
+	width: 200px;
+	margin: 20px auto;
+
+}
+button{
+	background: green;
+	outline: none;
+	border: none;
+	width: 200px;
+	height: 30px;
+	border-radius: 50px;
+	color: white;
+	font-size: 20px;
+}
